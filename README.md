@@ -16,17 +16,18 @@ JavaScript for interactive elements and animations.<br>
 
 
 ## Getting Started<br>
-To run this portfolio website locally or deploy it on a web server, follow these steps:<br>
+To run this portfolio website locally click on the following link:<br>
+https://dtellez25.github.io/personal-portfolio/<br>
 
 ## Usage<br>
-Feel free to explore the website and interact with its various sections. You can navigate through the projects, view project details, and access live demos or source code repositories. Additionally, you can contact me using the provided contact form or by reaching out through the social media links.<br>
+Feel free to explore the website and interact with its various sections. You can navigate through the projects, view project details, and access live demos or source code repositories. Additionally, you can contact me using the provided contact form or through social media links.<br>
 
 ## Contributing
 I appreciate any suggestions, feedback, or contributions to help improve my portfolio. If you find any issues or have ideas for enhancements, please feel free to submit a pull request or open an issue in this repository.<br>
 
 
 ## Contact<br>
-If you have any questions, inquiries, or just want to connect, you can reach me through the following channels:<br>
+If you have any questions, or inquiries, or just want to connect, you can reach me through the following channels:<br>
 
 Email: dtellezgar@gmail.com<br>
 LinkedIn: Dagoberto Tellez<br>
