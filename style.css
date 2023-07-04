@@ -35,7 +35,7 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 250px;
 }
 
 nav ul li{
@@ -68,7 +68,7 @@ nav ul li a:hover::after{
 
 .header-text{
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .header-text h1{
@@ -90,6 +90,8 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .about-col-1{
