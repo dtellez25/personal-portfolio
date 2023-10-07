@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6be7076ff0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        </div>
+        <div class="header-text">
+            <p>Computer Science student</p>
+            <h1>Hi, I am <span>Dagoberto </span> <br> Tellez from Nicaragua</h1>
+        </div>
+        
+    </div>
+<!-----about-->
+    <div id="about">
+        <div class=" container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutMe.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Welcome to my portfolio! I'm Dagoberto Tellez, a passionate computer science student with a knack for coding. Here, you'll find a collection of 
+                        my projects that showcase my technical skills and creative problem-solving. From web development to software engineering and data analysis, I 
+                        love exploring various domains. Let's connect and collaborate on exciting ventures! 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            <li><span>Data analysis</span><br>Analysis of Data Sets</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>App development intern at JuegaOK Managua</br></li>
+                            <li><span>2022</span><br>Student Research Intern at Trinity College</br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Bachelor of Science in Computer Science</li>
+                            <li><span>2021</span><br>Python Certification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Creation of visually appealing and functional websites tailored to meet clients' 
+                        unique needs, utilizing the latest web development trends and technologies.</p>
+                        
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i>                    <h2>UI/UX Design</h2>
+                    <p> Professional UI/UX design services, creating intuitive and visually engaging interfaces 
+                        that prioritize user satisfaction. Let me bring your digital products to life with 
+                        exceptional design and user-centered approach.</p>
+                        
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p> Professional app design services, leveraging my technical expertise and creative flair 
+                        to develop visually captivating and user-friendly mobile applications. From concept to 
+                        prototype, I focus on creating intuitive interfaces and seamless user experiences that 
+                        align with your app's goals and target audience.</p>
+                        
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>                    <h2>Data Analysis</h2>
+                    <p> Data analysis services, utilizing my analytical skills and technical knowledge to extract 
+                        valuable insights from complex datasets. Whether it's performing exploratory data analysis, 
+                        developing predictive models, or visualizing data trends, I employ a systematic approach to 
+                        uncover meaningful patterns and inform data-driven decision-making.</p>
+                        
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/research.jpg">
+                    <div class="layer">
+                        <h3>Online Psychological Experiment</h3>
+                        <p>Online experiment of the Predictive processing (PP) theory of perception</p>
+                        <a href="projectWindows/psychExperiment/psychExperiment.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/data analysis.jpg">
+                    <div class="layer">
+                        <h3>Adoption Center Database</h3>
+                        <p>Detailed implementation of a database based in SQL</p>
+                        <a href="projectWindows/databaseProject/databaseProject.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/websiteCarpinteria.jpg">
+                    <div class="layer">
+                        <h3>Carpentry Website</h3>
+                        <p>Website that displays different services offered by a Wood Shop store</p>
+                        <a href="projectWindows/CarpentryWebsite/CarpentryWebsite.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!------add a see more button------>
+            <a class="btn" id="seeMoreButton">See more</a>
+        </div>
+    </div>
+
+    
+
+    <!------hidden portfolio------>
+    <div id="hiddenportfolio" style="display: none;">
+        <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/TagAlong.png">
+                    <div class="layer">
+                        <h3>Ride-Sharing Mobile App</h3>
+                        <p>Mobile App that allows college Students create or request to join carpooling trips</p>
+                        <a href="projectWindows/tagAlongApp/TagAlongWebsite.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <!-----no current project----->
+                </div> 
+                <div class="work">
+                    <!-----no current project----->
+                </div>                
+            </div>
+            <a class="btn" id="seeLessButton" style="display: none;">See Less</a>
+            
+        </div>
+
+    </div>
+
+
+<!-----contact----->
+    <div id="contact" style="margin-top: 40px;">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> dtellezgar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +1(209)455-5424</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/dagoberto.tellez25"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/dagoberto_25/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dagoberto-tellez/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/CV (PDF).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i>Copyright by Dagoberto Tellez</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz6hs831wV7VhBgFDLLGp_0bOSdmD3Nk6f4rFEWWGdz0su18ovQfU5dFAdRb7WYNHa2/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+    <script>
+        // JavaScript function to show hidden projects when "See More" is clicked
+        function showHiddenProjects() {
+            const hiddenProjects = document.getElementById("hiddenportfolio");
+            const seeMoreButton = document.getElementById("seeMoreButton");
+            const seeLessButton = document.getElementById("seeLessButton");
+
+            // Toggle the display of hidden projects and buttons
+            if (hiddenProjects.style.display === "none") {
+                hiddenProjects.style.display = "block";
+                seeLessButton.style.display = "block";
+                seeMoreButton.style.display = "none";
+            } else {
+                hiddenProjects.style.display = "none";
+                seeLessButton.style.display = "none";
+                seeMoreButton.style.display = "block";
+            }
+        }
+
+        // Attach a click event listener to the "See More" button
+        const seeMoreButton = document.getElementById("seeMoreButton");
+        seeMoreButton.addEventListener("click", showHiddenProjects);
+
+        // Attach a click event listener to the "See Less" button
+        const seeLessButton = document.getElementById("seeLessButton");
+        seeLessButton.addEventListener("click", showHiddenProjects);
+    </script>
+    
+</body>
+</html>
