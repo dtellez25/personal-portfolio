@@ -150,7 +150,34 @@
                     </div>
                 </div>
             </div>
-            <!-- <a href="#" class="btn">See more</a>             -->
+            <!------add a see more button------>
+            <a class="btn" id="seeMoreButton">See more</a>
+        </div>
+    </div>
+
+    
+
+    <!------hidden portfolio------>
+    <div id="hiddenportfolio" style="display: none;">
+        <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/TagAlong.png">
+                    <div class="layer">
+                        <h3>Ride-Sharing Mobile App</h3>
+                        <p>Mobile App that allows college Students create or request to join carpooling trips</p>
+                        <a href="projectWindows/tagAlongApp/TagAlongWebsite.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <!-----no current project----->
+                </div> 
+                <div class="work">
+                    <!-----no current project----->
+                </div>                
+            </div>
+            <a class="btn" id="seeLessButton" style="display: none;">See Less</a>
+            
         </div>
 
     </div>
@@ -237,6 +264,36 @@
             })
             .catch(error => console.error('Error!', error.message))
         })
+    </script>
+
+
+
+    <script>
+        // JavaScript function to show hidden projects when "See More" is clicked
+        function showHiddenProjects() {
+            const hiddenProjects = document.getElementById("hiddenportfolio");
+            const seeMoreButton = document.getElementById("seeMoreButton");
+            const seeLessButton = document.getElementById("seeLessButton");
+
+            // Toggle the display of hidden projects and buttons
+            if (hiddenProjects.style.display === "none") {
+                hiddenProjects.style.display = "block";
+                seeLessButton.style.display = "block";
+                seeMoreButton.style.display = "none";
+            } else {
+                hiddenProjects.style.display = "none";
+                seeLessButton.style.display = "none";
+                seeMoreButton.style.display = "block";
+            }
+        }
+
+        // Attach a click event listener to the "See More" button
+        const seeMoreButton = document.getElementById("seeMoreButton");
+        seeMoreButton.addEventListener("click", showHiddenProjects);
+
+        // Attach a click event listener to the "See Less" button
+        const seeLessButton = document.getElementById("seeLessButton");
+        seeLessButton.addEventListener("click", showHiddenProjects);
     </script>
     
 </body>
