@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-commerce Platform Integrations</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <style>
+        :root {
+            --bg: #0b0f17;
+            --surface: rgba(255,255,255,0.06);
+            --text: rgba(255,255,255,0.92);
+            --muted: rgba(255,255,255,0.72);
+            --accent: #ff5a5f;
+            --border: rgba(255,255,255,0.12);
+            --radius: 14px;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: "Inter", "Segoe UI", Arial, sans-serif;
+            color: var(--text);
+            background: linear-gradient(180deg, #121827, var(--bg));
+            line-height: 1.65;
+        }
+        .container {
+            width: min(920px, 92%);
+            margin: 0 auto;
+        }
+        nav {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 36px;
+        }
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            margin-bottom: 8px;
+        }
+        .lead {
+            color: var(--muted);
+            margin-bottom: 26px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            margin-bottom: 18px;
+        }
+        h2 { margin-top: 0; font-size: 1.25rem; }
+        ul { padding-left: 18px; color: var(--muted); }
+        .stack span {
+            display: inline-block;
+            margin: 6px 8px 0 0;
+            padding: 6px 10px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,0.04);
+            font-size: 0.88rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="../../index.html#portfolio">Home</a>
+            <a href="../../index.html#hiddenportfolio">More Projects</a>
+        </nav>
+
+        <h1>E-commerce Platform Integrations</h1>
+        <p class="lead">Case study based on integration-heavy full stack work focused on codebase optimization, cloud resource monitoring, and reliable platform connectivity.</p>
+
+        <section class="card">
+            <h2>Overview</h2>
+            <p>Implemented and maintained integrations between internal services and external e-commerce platforms while improving stability and developer velocity in an existing production codebase.</p>
+        </section>
+
+        <section class="card">
+            <h2>Key Contributions</h2>
+            <ul>
+                <li>Optimized existing backend modules to improve maintainability and reduce integration errors.</li>
+                <li>Monitored cloud resources and service behavior to identify bottlenecks and reliability risks.</li>
+                <li>Built custom data synchronization workflows across third-party commerce APIs.</li>
+                <li>Explored automation opportunities using AI-assisted operational flows.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Tech Stack</h2>
+            <div class="stack">
+                <span>PHP</span><span>REST APIs</span><span>SQL</span><span>Cloud Monitoring</span><span>Web Integrations</span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

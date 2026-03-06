@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" translate="yes">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,9 +26,17 @@
             </nav>
 
         </div>
-        <div class="header-text">
-            <p>Computer Science student</p>
-            <h1>Hi, I am <span>Dagoberto </span> <br> Tellez from Nicaragua</h1>
+        <div class="header-content">
+            <div class="header-text">
+                <p>Full Stack Engineer</p>
+                <h1>Hi, I'm <span>Dagoberto</span> Tellez.<br><span class="header-subline">Software Engineer based in Spain.</span></h1>
+                <div class="header-badges">
+                    <span>Greater Barcelona, Spain</span>
+                    <span>E-commerce Integrations</span>
+                    <span>Full Stack Delivery</span>
+                </div>
+            </div>
+            <div class="header-photo" ><img src="images/aboutMe.jpg"></div>
         </div>
         
     </div>
@@ -37,40 +45,46 @@
         <div class=" container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/aboutMe.jpg">
+                    <img src="images/aboutDago.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
                     <p>
-                        Welcome to my portfolio! I'm Dagoberto Tellez, a passionate computer science student with a knack for coding. Here, you'll find a collection of 
-                        my projects that showcase my technical skills and creative problem-solving. From web development to software engineering and data analysis, I 
-                        love exploring various domains. Let's connect and collaborate on exciting ventures! 
+                        I'm a software engineer focused on full stack development and building reliable, maintainable products. My work includes e-commerce integrations,
+                        API-connected web systems, and mobile applications with production-minded architecture. I enjoy solving complex implementation details while keeping
+                        performance and usability in balance. I also bring a research background from building online experiments and handling data-driven workflows.
                     </p>
+                    <div class="about-metrics">
+                        <div><strong>3+</strong><span>engineering roles</span></div>
+                        <div><strong>API-First</strong><span>integration mindset</span></div>
+                        <div><strong>Web + Mobile</strong><span>cross-platform delivery</span></div>
+                    </div>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links"onclick="opentab('education')">Education</p>
 
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                    <div class="tab-contents active-tab" id="experience">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>Web app development</li>
-                            <li><span>App Development</span><br>Building Android/IOS apps</li>
-                            <li><span>Data analysis</span><br>Analysis of Data Sets</li>
+                            <li><span>2025-Present</span><br>Full Stack Engineer at Growth-Horizon - Netherlands</br></li>
+                            <li><span>2024</span><br>Software Engineer Intern at ES Consultores S.A. - Managua</br></li>
+                            <li><span>2023</span><br>Full-Stack Engineer Intern at JuegaOk - Managua</br></li>
+                            <li><span>2022</span><br>Student Research Assistant at Trinity College - Hartford, CT</br></li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="experience">
+                    <div class="tab-contents" id="skills">
                         <ul>
-                            <li><span>2023</span><br>App development intern at JuegaOK Managua</br></li>
-                            <li><span>2022</span><br>Student Research Intern at Trinity College</br></li>
+                            <li><span>Backend & Databases</span><br>PHP, C#, Java, Python; REST APIs, SQL data modeling and database queries</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, React; building responsive interfaces and web integrations</li>
+                            <li><span>Mobile Development</span><br>Flutter (Dart), Android (Java); cross-platform and native mobile applications</li>
+                            <li><span>Tools & Frameworks</span><br>Git, .NET, Spring Boot, Azure, VS Code, Visual Studio</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2021 - Current</span><br>Bachelor of Science in Computer Science</li>
-                            <li><span>2021</span><br>Python Certification</li>
+                            <li><span>Sep 2021-May 2025</span><br>B.S. Computer Science - Trinity College-Hartford</li>
                         </ul>
                     </div>
                 </div>
@@ -86,33 +100,24 @@
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p> Creation of visually appealing and functional websites tailored to meet clients' 
-                        unique needs, utilizing the latest web development trends and technologies.</p>
+                    <h2>Full-Stack Development</h2>
+                    <p>Design and implementation of web applications with maintainable architecture, clean code, and reliable delivery from front end to backend services.</p>
                         
                 </div>
                 <div>
-                    <i class="fa-brands fa-uikit"></i>                    <h2>UI/UX Design</h2>
-                    <p> Professional UI/UX design services, creating intuitive and visually engaging interfaces 
-                        that prioritize user satisfaction. Let me bring your digital products to life with 
-                        exceptional design and user-centered approach.</p>
+                    <i class="fa-brands fa-uikit"></i>                    <h2>API Integration &amp; Automation</h2>
+                    <p>Integration of REST APIs and external platforms, including e-commerce workflows and automation paths that reduce manual operations and improve consistency.</p>
                         
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store-ios"></i>
-                    <h2>App Design</h2>
-                    <p> Professional app design services, leveraging my technical expertise and creative flair 
-                        to develop visually captivating and user-friendly mobile applications. From concept to 
-                        prototype, I focus on creating intuitive interfaces and seamless user experiences that 
-                        align with your app's goals and target audience.</p>
+                    <h2>Backend &amp; Databases</h2>
+                    <p>Server-side development with SQL-driven data layers focused on performance, stable connections, and dependable storage and retrieval for growing products.</p>
                         
                 </div>
                 <div>
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>                    <h2>Data Analysis</h2>
-                    <p> Data analysis services, utilizing my analytical skills and technical knowledge to extract 
-                        valuable insights from complex datasets. Whether it's performing exploratory data analysis, 
-                        developing predictive models, or visualizing data trends, I employ a systematic approach to 
-                        uncover meaningful patterns and inform data-driven decision-making.</p>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>                    <h2>Mobile Development</h2>
+                    <p>Development of Android and Flutter mobile features, including API-connected functionality and practical UX flows that align with real business requirements.</p>
                         
                 </div>
                 
@@ -121,66 +126,105 @@
     </div>
 
     <!------portfolio------>
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/research.jpg">
-                    <div class="layer">
-                        <h3>Online Psychological Experiment</h3>
-                        <p>Online experiment of the Predictive processing (PP) theory of perception</p>
-                        <a href="projectWindows/psychExperiment/psychExperiment.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/data analysis.jpg">
-                    <div class="layer">
-                        <h3>Adoption Center Database</h3>
-                        <p>Detailed implementation of a database based in SQL</p>
-                        <a href="projectWindows/databaseProject/databaseProject.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/websiteCarpinteria.jpg">
-                    <div class="layer">
-                        <h3>Carpentry Website</h3>
-                        <p>Website that displays different services offered by a Wood Shop store</p>
-                        <a href="projectWindows/CarpentryWebsite/CarpentryWebsite.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="work-list">
+
+            <!-- OpenCart Extension -->
+            <div class="work">
+                <img src="images/opencart-comp.jpg">
+                <div class="layer">
+                    <h3>OpenCart E-commerce Extension</h3>
+                    <p>Custom OpenCart extension developed with PHP and MySQL to extend e-commerce functionality and integrate additional business logic.</p>
+                    <a href="projectWindows/opencartExtension/opencartExtension.html">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
-            <!------add a see more button------>
-            <a class="btn" id="seeMoreButton">See more</a>
-        </div>
-    </div>
 
-    
-
-    <!------hidden portfolio------>
-    <div id="hiddenportfolio" style="display: none;">
-        <div class="container">
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/TagAlong.png">
-                    <div class="layer">
-                        <h3>Ride-Sharing Mobile App</h3>
-                        <p>Mobile App that allows college Students create or request to join carpooling trips</p>
-                        <a href="projectWindows/tagAlongApp/TagAlongWebsite.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
+            <!-- Shuttle Tracking App -->
+            <div class="work">
+                <img src="images/shuttleApp.png">
+                <div class="layer">
+                    <h3>Real-Time Shuttle Tracking System</h3>
+                    <p>Flutter mobile application with Firebase backend and Google Maps integration for real-time shuttle tracking and stop requests.</p>
+                    <a href="projectWindows/shuttleApp/shuttleApp.html">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </div>
-                <div class="work">
-                    <!-----no current project----->
-                </div> 
-                <div class="work">
-                    <!-----no current project----->
-                </div>                
             </div>
-            <a class="btn" id="seeLessButton" style="display: none;">See Less</a>
-            
+
+            <!-- Messaging App -->
+            <div class="work">
+                <img src="images/Messaging-Platform.png">
+                <div class="layer">
+                    <h3>Full-Stack Messaging Platform</h3>
+                    <p>Messaging application built with FastAPI, React, and TypeScript featuring REST APIs and database-backed message storage.</p>
+                    <a href="projectWindows/messagingApp/messagingApp.html">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
+        <!------See More Button------>
+        <a class="btn" id="seeMoreButton">See more</a>
     </div>
+</div>
+
+
+<!------hidden portfolio------>
+<div id="hiddenportfolio" style="display: none;">
+    <div class="container">
+
+        <div class="work-list">
+
+            <!-- Employee Management App -->
+            <div class="work">
+                <img src="images/Attendance Manager App.jpg">
+                <div class="layer">
+                    <h3>Employee Management Mobile App</h3>
+                    <p>Cross-platform Flutter mobile application built during a software internship to manage employee records and administrative operations.</p>
+                    <a href="projectWindows/employeeApp/employeeApp.html">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ride Sharing App -->
+            <div class="work">
+                <img src="images/TagAlong.png">
+                <div class="layer">
+                    <h3>Ride-Sharing Mobile App</h3>
+                    <p>Mobile application that allows university students to create or join shared rides, improving transportation coordination.</p>
+                    <a href="projectWindows/tagAlongApp/TagAlongWebsite.html">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- SQL Database -->
+            <div class="work">
+                <img src="images/database-management-dbms-scheme.png">
+                <div class="layer">
+                    <h3>Adoption Center Database System</h3>
+                    <p>Relational database designed in SQL to manage animal records, adopters, and adoption processes for a shelter environment.</p>
+                    <a href="projectWindows/databaseProject/databaseProject.html">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <a class="btn" id="seeLessButton" style="display: none;">See Less</a>
+
+    </div>
+</div>
+
 
 
 <!-----contact----->
@@ -190,13 +234,14 @@
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
                     <p><i class="fa-sharp fa-solid fa-paper-plane"></i> dtellezgar@gmail.com</p>
-                    
+                    <p><i class="fa-sharp fa-solid fa-link"></i>www.linkedin.com/in/dagoberto-tellez</p>
+
                     <div class="social-icons">
                         <a href="https://www.facebook.com/dagoberto.tellez25"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://www.instagram.com/dagoberto_25/"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/dagoberto-tellez/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="images/CV (PDF).pdf" download class="btn btn2">Download CV</a>
+                    <a href="images/CV_Dagoberto_Tellez_'26.docx.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Android + API Data Client</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <style>
+        :root {
+            --bg: #0b0f17;
+            --surface: rgba(255,255,255,0.06);
+            --text: rgba(255,255,255,0.92);
+            --muted: rgba(255,255,255,0.72);
+            --accent: #ff5a5f;
+            --border: rgba(255,255,255,0.12);
+            --radius: 14px;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: "Inter", "Segoe UI", Arial, sans-serif;
+            color: var(--text);
+            background: linear-gradient(180deg, #121827, var(--bg));
+            line-height: 1.65;
+        }
+        .container {
+            width: min(920px, 92%);
+            margin: 0 auto;
+        }
+        nav {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 36px;
+        }
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            margin-bottom: 8px;
+        }
+        .lead {
+            color: var(--muted);
+            margin-bottom: 26px;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            margin-bottom: 18px;
+        }
+        h2 { margin-top: 0; font-size: 1.25rem; }
+        ul { padding-left: 18px; color: var(--muted); }
+        .stack span {
+            display: inline-block;
+            margin: 6px 8px 0 0;
+            padding: 6px 10px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,0.04);
+            font-size: 0.88rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="../../index.html#portfolio">Home</a>
+            <a href="../../index.html#hiddenportfolio">More Projects</a>
+        </nav>
+
+        <h1>Android + API Data Client</h1>
+        <p class="lead">Internship case study for an Android application connected to a database server and external APIs with structured data retrieval workflows.</p>
+
+        <section class="card">
+            <h2>Overview</h2>
+            <p>Built Android features in Java using Android Studio and connected the app to backend data services. The focus was consistent API communication, safe DB interactions, and reliable response handling.</p>
+        </section>
+
+        <section class="card">
+            <h2>Key Contributions</h2>
+            <ul>
+                <li>Implemented app-to-server communication for database-backed functionality.</li>
+                <li>Integrated external APIs and normalized data for mobile presentation.</li>
+                <li>Managed database connection flows for efficient storage and retrieval.</li>
+                <li>Improved response handling for stable data display in client screens.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Tech Stack</h2>
+            <div class="stack">
+                <span>Java</span><span>Android Studio</span><span>REST APIs</span><span>SQL</span><span>Mobile Client</span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
